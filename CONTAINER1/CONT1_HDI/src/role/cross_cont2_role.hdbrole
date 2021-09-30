@@ -1,0 +1,11 @@
+{
+  "role": {
+    "name": "cross_cont2_role#",
+	"schema_roles":[ 
+	  { 
+	    "schema_reference":"REF_CONT2", 
+	    "names": ["read_table2#"] 
+	  } 
+	]
+  }
+}

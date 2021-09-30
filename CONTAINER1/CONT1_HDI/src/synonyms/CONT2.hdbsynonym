@@ -1,0 +1,8 @@
+{
+  "CONT2_table2": {
+    "target": {
+      "object": "table2",
+      "schema": "CONT2_HDI_SCHEMA"
+      }
+  }
+}

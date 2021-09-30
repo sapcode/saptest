@@ -1,0 +1,7 @@
+{
+  "cross_cont2_role#": {
+    "REF_CONT2": {
+      "schema": "CONT2_HDI_SCHEMA"
+    }
+  }
+}

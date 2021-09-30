@@ -1,0 +1,44 @@
+{
+  "sys.users": {
+    "target": {
+      "schema": "SYS",
+      "object": "USERS"
+    }
+  },
+  "sys.roles": {
+    "target": {
+      "schema": "SYS",
+      "object": "ROLES"
+    }
+  },
+  "sys.dummy": {
+    "target": {
+      "object": "DUMMY",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_services": {
+    "target": {
+      "object": "M_SERVICES",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_service_memory": {
+    "target": {
+      "object": "M_SERVICE_MEMORY",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_service_statistics": {
+    "target": {
+      "object": "M_SERVICE_STATISTICS",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_heap_memory_reset": {
+    "target": {
+      "object": "M_HEAP_MEMORY_RESET",
+      "schema": "SYS"
+    }
+  }
+}

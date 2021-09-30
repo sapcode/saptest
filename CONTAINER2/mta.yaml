@@ -1,0 +1,17 @@
+ID: CONTAINER2
+_schema-version: '2.1'
+version: 0.0.1
+modules:
+  - name: CONT2_HDI
+    type: hdb
+    path: CONT2_HDI
+    requires:
+      - name: hdi_CONT2_HDI
+resources:
+  - name: hdi_CONT2_HDI
+    parameters:
+      config:
+        schema: CONT2_HDI_SCHEMA
+    properties:
+      hdi-container-name: '${service-name}'
+    type: com.sap.xs.hdi-container

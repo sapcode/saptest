@@ -1,0 +1,9 @@
+entity table1 {
+    key Author    : String(100);
+    key BookTitle : String(100);
+        ISBN      : Integer not null;
+        Publisher : String(100);
+} technical configuration {
+    column store;
+    unique index MYINDEX1 on (ISBN) desc;
+};

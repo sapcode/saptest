@@ -1,0 +1,14 @@
+{
+  "hdi_CONT2_HDI": {
+    "object_owner" : {
+    
+    "schema_roles" : [
+      { 
+        "schema" : "CONT2_HDI_SCHEMA",
+        "roles"  : [ "read_table2#"]
+      }
+    ]
+    }
+
+  }
+}
